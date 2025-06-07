@@ -1,0 +1,42 @@
+body {
+    background-image: url("pink-hearts.jpg");
+    background-repeat: initial;
+    background-size: 25%;
+}
+.header{
+    background-color: rgb(255, 225, 241);
+    border-bottom: 1px solid black;
+    }
+.big-on-header{
+    padding-bottom: revert;
+}
+container {
+    flex-direction: row;
+}
+.fixed-bottom{
+    background-color: rgb(255, 225, 241);
+    text-align: center;
+    box-sizing: border-box;
+    padding-bottom: 2px;
+    position: inherit;
+    border-top: black solid 1px;
+}
+.big-on-header{
+    font-family: "Garamond", Serif;
+}
+.text-center  {
+    margin-top: 110px;
+    font-family: "Garamond", Serif;
+
+}
+.box {
+    background-color: rgb(255, 225, 241);
+    border: 1px solid black;
+    width: fit-content;
+    height: fit-content;
+    padding-top: 1px;
+    margin-left: 46%;
+}
+.card{
+    background-color: rgb(255, 225, 241);
+}

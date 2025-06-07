@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel='stylesheet' href='styleMain.css'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <title>English helper</title>
+</head>
+<body>
+<div class="header">
+    <div class="d-flex flex-row mb-3">
+        <img src="E-logo-final.png" class="rounded-circle" width=55 height=55>
+        <h1 class="big-on-header">English Helper</h1>
+    </div>
+</div>
+
+<figure class="text-center">
+    <blockquote class="blockquote">
+        <div class="box">Sign in to begin!</div>
+    </blockquote>
+</figure>
+<div class="d-flex justify-content-center">
+<div class="card" style="background-color: aliceblue">
+
+<form class="row g-3" novalidate>
+    <div class="col-md-4">
+        <label for="validationCustom01" class="form-label">Name</label>
+        <input type="text" class="form-control" id="validationCustom01" required>
+        <div class="valid-feedback">
+            Looks good!
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <label for="validationCustom02" class="form-label">Email</label>
+        <input type="text" class="form-control" id="validationCustom02" value="" required>
+        <div class="valid-feedback">
+            Looks good!
+        </div>
+    </div>
+    <div class="col-md-4">
+        <label class="form-label">Birthday</label>
+        <div class="input-group has-validation">
+            <input type="date" class="form-control" aria-describedby="inputGroupPrepend" required>
+            <div class="invalid-feedback">
+                Please set age.
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                Gender
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Male</a></li>
+                <li><a class="dropdown-item" href="#">Female</a></li>
+                <li><a class="dropdown-item" href="#">Something else</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="col-12">
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="invalidCheck" required>
+            <label class="form-check-label" for="invalidCheck">
+                Agree to terms and conditions
+            </label>
+            <div class="invalid-feedback">
+                You must agree.
+            </div>
+        </div>
+    </div>
+    <a href="homePage.html">
+        <button type="button" class="btn btn-dark">Register</button></a>
+</form>
+</div>
+</div>
+
+<div class="fixed-bottom">@lovs4y🐾</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+</html>
